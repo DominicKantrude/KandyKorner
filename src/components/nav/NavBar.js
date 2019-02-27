@@ -1,8 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
-import "bootstrap/dist/css/bootstrap.min.css"
-
-
+// import "bootstrap/dist/css/bootstrap.min.css"
 class NavBar extends Component {
     render() {
         return (
@@ -12,10 +10,10 @@ class NavBar extends Component {
                         <Link className="nav-link" to="/">Locations</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/animals">Employees</Link>
+                        <Link className="nav-link" to="/employees">Employees</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/employees">Candies</Link>
+                        <Link className="nav-link" to="/candies">Candies</Link>
                     </li>
                 </ul>
             </nav>

@@ -75,10 +75,10 @@ class ApplicationViews extends Component {
                 <Route exact path="/" render={() => {
                     return <StoreList TacoStores={this.state.TacoStores} />
                 }} />
-                <Route exact path="/animals" render={() => {
+                <Route exact path="/employees" render={() => {
                     return <EmployeeList TacoEmployees={this.state.TacoEmployees} />
                 }} />
-                <Route exact path="/employees" render={() => {
+                <Route exact path="/candies" render={() => {
                     return <CandyList employees={this.state.employees}CandyList TacoCandyTypes={this.state.TacoCandyTypes}
                     TacoCandies={this.state.TacoCandies} />
                 }} />

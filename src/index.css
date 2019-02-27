@@ -29,7 +29,7 @@ code {
 .candies{
   border: 3px solid green;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column
 }
 
 .singleCandy{
