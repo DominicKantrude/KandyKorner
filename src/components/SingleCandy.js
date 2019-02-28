@@ -8,6 +8,7 @@ class SingleCandy extends Component {
             <div key={`candy-${candy.id}`} className="singleCandy">
                 <h4 key={`candyName--${candy.id}`}>{candy.name}</h4>
                 <div key={`candyType--${candy.id}`}>Category: {type}</div>
+                <button onClick={() => this.props.deleteCandy(candy.id)}>Button</button>
             </div>
         )
     }
